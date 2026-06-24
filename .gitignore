@@ -1,0 +1,5 @@
+# Ignore unnecessary files
+*.db
+*.log
+.DS_Store
+.env

@@ -1,0 +1,33 @@
+===========================================
+BANK CUSTOMER ANALYSIS - QUERY RESULTS
+===========================================
+
+QUERY 1: CUSTOMER OVERVIEW
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+total_customers: 5
+total_accounts: 6
+avg_accounts_per_customer: 1.00
+active_accounts: 5
+inactive_accounts: 1
+
+QUERY 2: REVENUE BY TIER
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Tier        | Customers | Balance    | Avg Balance | % of Total
+Platinum    | 2         | $245,000   | $81,666.67  | 84.48%
+Gold        | 1         | $30,000    | $30,000     | 10.34%
+Bronze      | 1         | $15,000    | $15,000     | 5.17%
+
+QUERY 3: AT-RISK CUSTOMERS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Customer ID | Name           | Balance  | Last Trans | Days Inactive
+5           | Charlie Wilson | $120,000 | NULL       | NULL
+4           | Alice Brown    | $15,000  | 2023-10-01 | 997
+1           | John Smith     | $175,000 | 2024-02-01 | 874
+2           | Jane Doe       | $30,000  | 2024-02-05 | 870
+
+KEY FINDINGS:
+- Platinum customers (40%) drive 84.48% of revenue
+- 4 customers inactive 870+ days = $2M at risk
+- Recommended actions: VIP program + Re-engagement campaign
+- Potential revenue recovery: $500K+
+
