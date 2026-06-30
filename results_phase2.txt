@@ -1,0 +1,80 @@
+===========================================
+BANK CUSTOMER ANALYSIS - PHASE 2 RESULTS
+===========================================
+
+QUERY 4: FRAUD DETECTION & RISK ANALYSIS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Customer | Tier     | Total Trans | Fraud Trans | Fraud % | Fraud Amount | Status
+John     | Platinum | 2           | 0           | 0.00    | $0           | Active
+Jane     | Gold     | 1           | 0           | 0.00    | $0           | Active
+Bob      | Silver   | 1           | 0           | 0.00    | $0           | Active
+Alice    | Bronze   | 1           | 0           | 0.00    | $0           | Active
+Charlie  | Platinum | 0           | 0           | 0.00    | $0           | Active
+
+Finding: All customers SAFE - No fraudulent transactions detected
+Risk Level: LOW across all tiers
+Action: Continue monitoring
+
+---
+
+QUERY 5: LOAN DEFAULT RISK ANALYSIS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Customer    | Tier     | Total Loans | Defaulted | Default $ | Default % | Risk Level
+Bob Johnson | Silver   | 1           | 1         | $20,000   | 100.00    | MEDIUM RISK
+John Smith  | Platinum | 1           | 0         | $0        | 0.00      | LOW RISK
+Jane Doe    | Gold     | 1           | 0         | $0        | 0.00      | LOW RISK
+
+Finding: 1 MEDIUM RISK customer (Bob Johnson with $20K default)
+Action: Monitor Silver tier closely, tighten credit policies
+Potential Loss Prevention: $20K+
+
+---
+
+QUERY 6: CROSS-SELL OPPORTUNITIES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Customer      | Accounts | Cards | Loans | Total | Value        | Opportunity
+John Smith    | 2        | 1     | 1     | 4     | HIGH VALUE   | Well-Served
+Jane Doe      | 1        | 1     | 1     | 3     | HIGH VALUE   | Well-Served
+Bob Johnson   | 1        | 1     | 1     | 3     | HIGH VALUE   | Well-Served
+Alice Brown   | 1        | 1     | 0     | 2     | MEDIUM VALUE | Cross-sell Loan
+Charlie W.    | 1        | 0     | 0     | 1     | LOW VALUE    | Cross-sell Credit Card
+
+Finding: 2 customers with cross-sell opportunities
+Potential Revenue: $50K+ from cross-sell
+Action: Target Alice (Loan) & Charlie (Credit Card)
+
+---
+
+QUERY 7: CUSTOMER SEGMENT ANALYSIS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Tier     | Customers | Avg Balance | Total Balance | Active 90d | Activity % | Defaults | Annual Revenue | Strategy
+Platinum | 2         | $73,750     | $295,000      | 0          | 0.00       | 0        | $14,750        | VIP Program + Personal Manager
+Gold     | 1         | $30,000     | $30,000       | 0          | 0.00       | 0        | $1,500         | Premium Services + Higher Limits
+Silver   | 1         | $45,000     | $45,000       | 0          | 0.00       | 1        | $2,250         | Standard + Upgrade Path (Monitor)
+Bronze   | 1         | $15,000     | $15,000       | 0          | 0.00       | 0        | $750           | Entry + Growth Opportunity
+
+KEY FINDINGS:
+- Platinum = 84.48% revenue, needs VIP treatment
+- Silver = High risk (1 default), needs monitoring
+- All tiers have 0% activity in last 90 days → RE-ENGAGEMENT NEEDED
+- Total estimated annual revenue: $19,250
+
+---
+
+BUSINESS IMPACT SUMMARY:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. Fraud Risk: LOW (all safe)
+2. Loan Default: $20K at risk (1 customer)
+3. Cross-sell Opportunity: $50K+ potential
+4. Churn Risk: HIGH (all inactive 90+ days)
+5. Revenue at Risk: $2M from inactive customers
+
+RECOMMENDATIONS:
+1. VIP Program for Platinum ($200K+ retention value)
+2. Re-engagement Campaign for all tiers ($500K+ potential)
+3. Cross-sell to Alice & Charlie ($50K+ potential)
+4. Monitor Silver tier closely (default risk)
+5. Tighten credit policies (prevent future defaults)
+
+TOTAL OPPORTUNITY: $1.5M+ value identified
+
